@@ -36,12 +36,24 @@ void CreateTrain(const string& train_name, const set<string>& towns,   // соз
     train.route = towns;
     
     all_trains.insert(train);
-    
-    for (string town : towns){
-        Town city;
-        city.name = town;
-        city.passing_trains.insert(train_name);
-        all_towns.insert(city);
+   
+    for (const string& town_name : towns) {
+        // Ищем город в существующем множестве
+        auto it = all_towns.find(Town{town_name});
+           
+        if (it != all_towns.end()) {
+            // Город уже существует - нужно обновить его
+            Town updated_town = *it;  // Создаем копию
+            updated_town.passing_trains.insert(train_name);  // Добавляем поезд
+            all_towns.erase(it);  // Удаляем старую версию
+            all_towns.insert(updated_town);  // Добавляем обновленную
+        } else {
+            // Города нет - создаем новый
+            Town new_town;
+            new_town.name = town_name;
+            new_town.passing_trains.insert(train_name);
+            all_towns.insert(new_town);
+        }
     }
 }
 
