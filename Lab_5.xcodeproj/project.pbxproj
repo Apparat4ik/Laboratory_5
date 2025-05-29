@@ -23,9 +23,9 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		86BF0DA92DDCDDCA008FA3F4 /* Lab_5 */ = {
+		86BF0DA92DDCDDCA008FA3F4 /* Friends */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Lab_5;
+			path = Friends;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -44,7 +44,7 @@
 		86BF0D9E2DDCDDCA008FA3F4 = {
 			isa = PBXGroup;
 			children = (
-				86BF0DA92DDCDDCA008FA3F4 /* Lab_5 */,
+				86BF0DA92DDCDDCA008FA3F4 /* Friends */,
 				86BF0DA82DDCDDCA008FA3F4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -73,7 +73,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				86BF0DA92DDCDDCA008FA3F4 /* Lab_5 */,
+				86BF0DA92DDCDDCA008FA3F4 /* Friends */,
 			);
 			name = Lab_5;
 			packageProductDependencies = (
