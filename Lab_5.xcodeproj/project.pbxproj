@@ -22,10 +22,23 @@
 		86BF0DA72DDCDDCA008FA3F4 /* Lab_5 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Lab_5; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		8650AEFD2DE5988A0014FD3D /* Exceptions for "Trains" folder in "Lab_5" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				functions.cpp,
+			);
+			target = 86BF0DA62DDCDDCA008FA3F4 /* Lab_5 */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		86BF0DA92DDCDDCA008FA3F4 /* Lab_5 */ = {
+		86BF0DA92DDCDDCA008FA3F4 /* Trains */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Lab_5;
+			exceptions = (
+				8650AEFD2DE5988A0014FD3D /* Exceptions for "Trains" folder in "Lab_5" target */,
+			);
+			path = Trains;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -44,7 +57,7 @@
 		86BF0D9E2DDCDDCA008FA3F4 = {
 			isa = PBXGroup;
 			children = (
-				86BF0DA92DDCDDCA008FA3F4 /* Lab_5 */,
+				86BF0DA92DDCDDCA008FA3F4 /* Trains */,
 				86BF0DA82DDCDDCA008FA3F4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -73,7 +86,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				86BF0DA92DDCDDCA008FA3F4 /* Lab_5 */,
+				86BF0DA92DDCDDCA008FA3F4 /* Trains */,
 			);
 			name = Lab_5;
 			packageProductDependencies = (
